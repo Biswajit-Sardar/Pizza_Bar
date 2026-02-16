@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaBar - Order Fresh Pizza Online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-logo">P</div>
+                <span class="brand-name">PizzaBar</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="orders.html" id="ordersNav" style="display: none;">Orders</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-icon" id="themeToggle" title="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="btn-sign-in" id="signInBtn">
+                    <i class="fas fa-user"></i> Sign In
+                </button>
+                <button class="btn-cart" id="cartBtn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-badge" id="cartBadge">0</span>
+                </button>
+                <!-- User Menu (hidden by default) -->
+                <div class="user-menu-container" id="userMenuContainer" style="display: none;">
+                    <button class="user-avatar-btn" id="userAvatarBtn">
+                        <i class="fas fa-user"></i>
+                    </button>
+                    <div class="user-dropdown" id="userDropdown">
+                        <div class="user-info">
+                            <p class="user-name" id="userNameDisplay"></p>
+                            <p class="user-email" id="userEmailDisplay"></p>
+                        </div>
+                        <a href="orders.html">My Orders</a>
+                        <a href="#" id="logoutBtn">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Carousel -->
+    <section class="hero-section">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <div class="carousel-content">
+                    <div class="carousel-text">
+                        <p class="special-label">TODAY'S SPECIAL</p>
+                        <h1 class="hero-title">Buy 1 Get 1 Free</h1>
+                        <p class="hero-description">Order any large Pepperoni or Meat Lovers pizza<br>and get a second one absolutely free. Limited time offer!</p>
+                        <div class="hero-buttons">
+                            <button class="btn-primary" onclick="window.location.href='menu.html'">
+                                Grab the Deal <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <button class="btn-secondary">View Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="carousel-content">
+                    <div class="carousel-text">
+                        <p class="special-label">NEW ARRIVAL</p>
+                        <h1 class="hero-title">Gourmet Pizza Collection</h1>
+                        <p class="hero-description">Try our exclusive handcrafted pizzas<br>made with premium imported ingredients.</p>
+                        <div class="hero-buttons">
+                            <button class="btn-primary" onclick="window.location.href='menu.html'">
+                                Order Now <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <button class="btn-secondary">Explore More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="carousel-content">
+                    <div class="carousel-text">
+                        <p class="special-label">WEEKEND SPECIAL</p>
+                        <h1 class="hero-title">Family Combo Deal</h1>
+                        <p class="hero-description">2 Large Pizzas + Garlic Bread + Coke<br>at just ₹999. Perfect for family gatherings!</p>
+                        <div class="hero-buttons">
+                            <button class="btn-primary" onclick="window.location.href='menu.html'">
+                                Order Now <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <button class="btn-secondary">See Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Controls -->
+            <button class="carousel-btn prev" id="prevBtn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn next" id="nextBtn">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Preview Section -->
+    <section class="menu-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Discover Your Perfect Pizza</h2>
+                <p>Browse our handcrafted selection of wood-fired pizzas,<br>each made with the finest ingredients.</p>
+            </div>
+
+            <!-- Search and Filter -->
+            <div class="menu-controls">
+                <div class="search-bar">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search pizzas, ingredients..." id="homeSearchInput">
+                </div>
+                <div class="sort-dropdown">
+                    <button class="sort-btn">
+                        <i class="fas fa-sliders-h"></i> Most Popular
+                    </button>
+                </div>
+            </div>
+
+            <!-- Category Filters -->
+            <div class="category-filters">
+                <button class="filter-chip active" data-category="all">
+                    <i class="fas fa-pizza-slice"></i> All Pizzas
+                </button>
+                <button class="filter-chip" data-category="classic">
+                    <i class="fas fa-star"></i> Classic
+                </button>
+                <button class="filter-chip" data-category="specialty">
+                    <i class="fas fa-fire"></i> Specialty
+                </button>
+                <button class="filter-chip" data-category="vegetarian">
+                    <i class="fas fa-leaf"></i> Vegetarian
+                </button>
+                <button class="filter-chip" data-category="spicy">
+                    <i class="fas fa-pepper-hot"></i> Spicy
+                </button>
+                <button class="filter-chip" data-category="seafood">
+                    <i class="fas fa-fish"></i> Seafood
+                </button>
+            </div>
+
+            <!-- Pizza Grid -->
+            <div class="pizza-grid" id="homePizzaGrid">
+                <!-- Pizzas will be loaded here -->
+                <div class="loading-spinner">
+                    <i class="fas fa-spinner fa-spin"></i> Loading pizzas...
+                </div>
+            </div>
+
+            <div class="view-all-section">
+                <a href="menu.html" class="btn-view-all">View All Pizzas <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sign In Modal -->
+    <div class="modal" id="signInModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2 class="modal-title">Welcome Back</h2>
+            <p class="modal-subtitle">Sign in to your account to continue</p>
+
+            <div class="auth-tabs">
+                <button class="auth-tab active" data-tab="signin">Sign In</button>
+                <button class="auth-tab" data-tab="signup">Sign Up</button>
+            </div>
+
+            <!-- Sign In Form -->
+            <form class="auth-form" id="signInForm">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="signInEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="signInPassword" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="btn-submit">Sign In</button>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <div class="social-auth">
+                    <button type="button" class="btn-social google" id="googleSignIn">
+                        <i class="fab fa-google"></i> Continue with Google
+                    </button>
+                    <button type="button" class="btn-social facebook" id="facebookSignIn">
+                        <i class="fab fa-facebook"></i> Continue with Facebook
+                    </button>
+                </div>
+            </form>
+
+            <!-- Sign Up Form -->
+            <form class="auth-form" id="signUpForm" style="display: none;">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="signUpName" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" id="signUpEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" id="signUpPassword" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" id="signUpConfirmPassword" placeholder="Confirm your password" required>
+                </div>
+                <button type="submit" class="btn-submit">Create Account</button>
+
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+
+                <div class="social-auth">
+                    <button type="button" class="btn-social google" id="googleSignUp">
+                        <i class="fab fa-google"></i> Sign up with Google
+                    </button>
+                    <button type="button" class="btn-social facebook" id="facebookSignUp">
+                        <i class="fab fa-facebook"></i> Sign up with Facebook
+                    </button>
+                </div>
+            </form>
+
+            <div class="auth-message" id="authMessage"></div>
+        </div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Shopping Cart</h3>
+            <button class="cart-close" id="closeCart">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be loaded here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-summary">
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="cartSubtotal">₹0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Tax (5%)</span>
+                    <span id="cartTax">₹0</span>
+                </div>
+                <div class="summary-row">
+                    <span>Delivery</span>
+                    <span id="cartDelivery">₹50</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span id="cartTotal">₹0</span>
+                </div>
+            </div>
+            <button class="btn-checkout" id="checkoutBtn">
+                <i class="fas fa-shopping-bag"></i> Proceed to Checkout
+            </button>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
