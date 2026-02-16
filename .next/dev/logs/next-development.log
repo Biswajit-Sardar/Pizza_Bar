@@ -1,9 +1,69 @@
-[00:00:01.819] Server  LOG     ✓ Ready in 1179ms
-[00:01:27.387] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:27.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:27.544] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:27.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:27.853] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.258] Server  LOG     ✓ Ready in 835ms
+[00:00:07.523] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:31.714] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:32.077] Server  LOG     ✓ Compiled in 375ms
+[00:01:32.145] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:33.180] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:33.438] Server  LOG     ✓ Compiled in 284ms
+[00:01:33.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:34.841] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:35.064] Server  LOG     ✓ Compiled in 252ms
+[00:01:35.109] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:36.509] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:36.760] Server  LOG     ✓ Compiled in 291ms
+[00:01:36.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:39.487] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:40.238] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:40.488] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:40.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:46.068] Browser WARN    Image with src "/images/hawaiian.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/spicy-diavola.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/pesto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/four-cheese.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/veggie.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/mushroom.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:46.068] Browser WARN    Image with src "/images/seafood.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:01:56.601] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/page.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:01:56.775] Server  LOG     ✓ Compiled in 16s
+[00:01:56.837] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:04.604] Server  LOG     ✓ Compiled in 4.7s
+[00:03:22.530] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/meat-lovers.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:22.530] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/hawaiian.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/spicy-diavola.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/veggie.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/four-cheese.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/pesto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/mushroom.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:22.530] Browser WARN    Image with src "/images/seafood.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:13.974] Server  LOG     ✓ Compiled in 369.4s
+[00:08:22.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:22.836] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/hawaiian.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/spicy-diavola.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/veggie.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/four-cheese.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/pesto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/mushroom.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:22.836] Browser WARN    Image with src "/images/seafood.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:29.928] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:30.113] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:30.113] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:30.113] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:08:30.113] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:09:54.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:54.240] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -21,7 +81,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/pizza/mar..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -39,8 +99,8 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:01:27.929] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:27.974] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:12:56.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:56.301] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -58,7 +118,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/pizza/mar..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -76,9 +136,55 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:01:27.993] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:28.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:28.587] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:12:57.406] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:57.592] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:57.592] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:57.592] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:12:57.592] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:39.171] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Page`.
+[00:18:47.768] Server  LOG     ✓ Compiled in 9.2s
+[00:18:51.397] Browser ERROR   ./app/page.tsx:6:16
+Parsing ecmascript source code failed
+  4 | import { TestimonialsSection } from "@/components/testimonials-section"
+  5 | import { CtaSection } from "@/components/cta-section"
+> 6 | import {Navbar from "@/components/navbar"
+    |                ^^^^
+  7 | export default function Page() {
+  8 |   return (
+  9 |     <>
+
+Expected ',', got 'from'
+[00:18:52.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:54.461] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:54.461] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:54.461] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:54.461] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:59.772] Browser WARN    Image with src "/images/mushroom.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:59.772] Browser WARN    Image with src "/images/hawaiian.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:59.772] Browser WARN    Image with src "/images/spicy-diavola.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:59.772] Browser WARN    Image with src "/images/veggie.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:59.772] Browser WARN    Image with src "/images/four-cheese.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:59.772] Browser WARN    Image with src "/images/pesto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:59.772] Browser WARN    Image with src "/images/seafood.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:03.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:06.578] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:07.130] Browser WARN    Image with src "/images/meat-lovers.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:19:07.130] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/hawaiian.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/spicy-diavola.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/veggie.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/four-cheese.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/pesto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/mushroom.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:07.130] Browser WARN    Image with src "/images/seafood.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:19.141] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:19.316] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -96,7 +202,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/pizza/mea..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -114,7 +220,22 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:01:28.589] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:20:26.128] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:40.471] Browser WARN    Image with src "/images/spicy-diavola.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:40.471] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:40.471] Browser WARN    Image with src "/images/veggie.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:40.471] Browser WARN    Image with src "/images/four-cheese.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:40.471] Browser WARN    Image with src "/images/pesto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:40.471] Browser WARN    Image with src "/images/mushroom.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:40.471] Browser WARN    Image with src "/images/seafood.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:43.958] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:43.958] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:43.958] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:56.803] Browser WARN    Image with src "/images/hawaiian.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:22:36.127] Server  LOG     ✓ Compiled in 130s
+[00:22:43.148] Server  LOG     ✓ Compiled in 1411ms
+[00:23:02.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:02.694] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -132,7 +253,7 @@ It can also happen if the client has a browser extension installed which messes 
         <ReplaySsrOnlyErrors>
         <DevRootHTTPAccessFallbackBoundary>
           <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+            <HTTPAccessFallbackErrorBoundary pathname="/menu" notFound={<NotAllowedRootHTTPFallbackError>} ...>
               <RedirectBoundary>
                 <RedirectErrorBoundary router={{...}}>
                   <Head>
@@ -142,7 +263,6 @@ It can also happen if the client has a browser extension installed which messes 
                       <link>
                       <script>
                       <script>
-                      <script>
                       <RootLayout>
                         <html lang="en">
                           <body
@@ -150,41 +270,777 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
-[00:01:28.590] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:23:02.870] Browser WARN    Image with src "/images/pepperoni.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/meat-lovers.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/margherita.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/hawaiian.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/bbq-chicken.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/spicy-diavola.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/veggie.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/four-cheese.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/pesto.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/mushroom.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:02.870] Browser WARN    Image with src "/images/seafood.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:23:42.094] Server  LOG     ✓ Compiled in 1325ms
+[00:23:48.088] Server  LOG     ✓ Compiled in 6s
+[00:23:49.196] Browser ERROR   ./app/menu/page.tsx:179:1
+Ecmascript file had an error
+  177 | }
+  178 |
+> 179 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 180 |   return (
+      | ^^^^^^^^^^
+> 181 |     <Suspense
+      | ^^^^^^^^^^
+> 182 |       fallback={
+      | ^^^^^^^^^^
+> 183 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 184 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 185 |         </div>
+      | ^^^^^^^^^^
+> 186 |       }
+      | ^^^^^^^^^^
+> 187 |     >
+      | ^^^^^^^^^^
+> 188 |       <MenuContent />
+      | ^^^^^^^^^^
+> 189 |     </Suspense>
+      | ^^^^^^^^^^
+> 190 |   )
+      | ^^^^^^^^^^
+> 191 | }
+      | ^^
+  192 |
 
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
+the name `default` is exported multiple times
 
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
 
-%s%s https://react.dev/link/hydration-mismatch 
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:23:50.086] Server  LOG     ✓ Compiled in 2s
+[00:23:51.177] Browser ERROR   ./app/menu/page.tsx:175:1
+Ecmascript file had an error
+  173 | }
+  174 |
+> 175 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 176 |   return (
+      | ^^^^^^^^^^
+> 177 |     <Suspense
+      | ^^^^^^^^^^
+> 178 |       fallback={
+      | ^^^^^^^^^^
+> 179 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 180 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 181 |         </div>
+      | ^^^^^^^^^^
+> 182 |       }
+      | ^^^^^^^^^^
+> 183 |     >
+      | ^^^^^^^^^^
+> 184 |       <MenuContent />
+      | ^^^^^^^^^^
+> 185 |     </Suspense>
+      | ^^^^^^^^^^
+> 186 |   )
+      | ^^^^^^^^^^
+> 187 | }
+      | ^^
+  188 |
 
-  ...
-    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
-      <AppDevOverlayErrorBoundary globalError={[...]}>
-        <ReplaySsrOnlyErrors>
-        <DevRootHTTPAccessFallbackBoundary>
-          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
-            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
-              <RedirectBoundary>
-                <RedirectErrorBoundary router={{...}}>
-                  <Head>
-                  <__next_root_layout_boundary__>
-                    <SegmentViewNode type="layout" pagePath="layout.tsx">
-                      <SegmentTrieNode>
-                      <link>
-                      <script>
-                      <script>
-                      <script>
-                      <RootLayout>
-                        <html lang="en">
-                          <body
--                           cz-shortcut-listen="true"
-                          >
-                  ...
+the name `default` is exported multiple times
 
-[00:01:47.867] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:59.212] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:23:52.941] Server  LOG     ✓ Compiled in 2.9s
+[00:23:53.181] Browser ERROR   ./app/menu/page.tsx:175:1
+Ecmascript file had an error
+  173 | }
+  174 |
+> 175 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 176 |   return (
+      | ^^^^^^^^^^
+> 177 |     <Suspense
+      | ^^^^^^^^^^
+> 178 |       fallback={
+      | ^^^^^^^^^^
+> 179 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 180 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 181 |         </div>
+      | ^^^^^^^^^^
+> 182 |       }
+      | ^^^^^^^^^^
+> 183 |     >
+      | ^^^^^^^^^^
+> 184 |       <MenuContent />
+      | ^^^^^^^^^^
+> 185 |     </Suspense>
+      | ^^^^^^^^^^
+> 186 |   )
+      | ^^^^^^^^^^
+> 187 | }
+      | ^^
+  188 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:23.253] Server  LOG     ✓ Compiled in 3.4s
+[00:24:24.170] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:36.177] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:36.559] Server  LOG     ✓ Compiled in 1239ms
+[00:24:37.175] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:38.030] Server  LOG     ✓ Compiled in 1463ms
+[00:24:38.177] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:41.514] Server  LOG     ✓ Compiled in 3.5s
+[00:24:42.177] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:46.959] Server  LOG     ✓ Compiled in 5.4s
+[00:24:47.170] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:51.932] Server  LOG     ✓ Compiled in 5s
+[00:24:52.177] Browser ERROR   ./app/menu/page.tsx:174:25
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      |                         ^^^^^^^^
+  175 |   return (
+  176 |     <Suspense
+  177 |       fallback={
+
+the name `MenuPage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:52.177] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:24:56.921] Server  LOG     ✓ Compiled in 5s
+[00:24:57.177] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:19.138] Server  LOG     ✓ Compiled in 22.2s
+[00:25:20.175] Browser ERROR   ./app/menu/page.tsx:174:25
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      |                         ^^^^^^^^
+  175 |   return (
+  176 |     <Suspense
+  177 |       fallback={
+
+the name `MenuPage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:20.175] Browser ERROR   ./app/menu/page.tsx:174:1
+Ecmascript file had an error
+  172 | }
+  173 |
+> 174 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 175 |   return (
+      | ^^^^^^^^^^
+> 176 |     <Suspense
+      | ^^^^^^^^^^
+> 177 |       fallback={
+      | ^^^^^^^^^^
+> 178 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 179 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 180 |         </div>
+      | ^^^^^^^^^^
+> 181 |       }
+      | ^^^^^^^^^^
+> 182 |     >
+      | ^^^^^^^^^^
+> 183 |       <MenuContent />
+      | ^^^^^^^^^^
+> 184 |     </Suspense>
+      | ^^^^^^^^^^
+> 185 |   )
+      | ^^^^^^^^^^
+> 186 | }
+      | ^^
+  187 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:21.285] Server  LOG     ✓ Compiled in 2.1s
+[00:25:22.171] Browser ERROR   ./app/menu/page.tsx:170:25
+Ecmascript file had an error
+  168 | }
+  169 |
+> 170 | export default function MenuPage() {
+      |                         ^^^^^^^^
+  171 |   return (
+  172 |     <Suspense
+  173 |       fallback={
+
+the name `MenuPage` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:22.171] Browser ERROR   ./app/menu/page.tsx:170:1
+Ecmascript file had an error
+  168 | }
+  169 |
+> 170 | export default function MenuPage() {
+      | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 171 |   return (
+      | ^^^^^^^^^^
+> 172 |     <Suspense
+      | ^^^^^^^^^^
+> 173 |       fallback={
+      | ^^^^^^^^^^
+> 174 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+      | ^^^^^^^^^^
+> 175 |           <p className="text-muted-foreground">Loading menu...</p>
+      | ^^^^^^^^^^
+> 176 |         </div>
+      | ^^^^^^^^^^
+> 177 |       }
+      | ^^^^^^^^^^
+> 178 |     >
+      | ^^^^^^^^^^
+> 179 |       <MenuContent />
+      | ^^^^^^^^^^
+> 180 |     </Suspense>
+      | ^^^^^^^^^^
+> 181 |   )
+      | ^^^^^^^^^^
+> 182 | }
+      | ^^
+  183 |
+
+the name `default` is exported multiple times
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:41.702] Server  LOG     ✓ Compiled in 20.4s
+[00:25:42.175] Browser ERROR   ./app/menu/page.tsx:179:5
+Parsing ecmascript source code failed
+  177 |       <MenuContent />
+  178 |     </Suspense>
+> 179 |     return (
+      |     ^^^^^^
+  180 |     <>
+  181 |       <Navbar />
+  182 |     </>
+
+Expected ',', got 'return'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:42.900] Server  LOG     ✓ Compiled in 1197ms
+[00:25:43.168] Browser ERROR   ./app/menu/page.tsx:180:6
+Parsing ecmascript source code failed
+  178 |     </Suspense>
+  179 |    
+> 180 |     <>
+      |      ^
+  181 |       <Navbar />
+  182 |     </>
+  183 |   )
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:43.168] Browser ERROR   ./app/menu/page.tsx:182:6
+Parsing ecmascript source code failed
+  180 |     <>
+  181 |       <Navbar />
+> 182 |     </>
+      |      ^^
+  183 |   )
+  184 |   )
+  185 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:50.174] Browser ERROR   ./app/menu/page.tsx:180:6
+Parsing ecmascript source code failed
+  178 |     </Suspense>
+  179 |    
+> 180 |     <>
+      |      ^
+  181 |       <Navbar />
+  182 |     </>
+  183 |   
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:25:50.174] Browser ERROR   ./app/menu/page.tsx:182:6
+Parsing ecmascript source code failed
+  180 |     <>
+  181 |       <Navbar />
+> 182 |     </>
+      |      ^^
+  183 |   
+  184 |   )
+  185 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:26:02.806] Server  LOG     ✓ Compiled in 5.6s
+[00:26:03.173] Browser ERROR   ./app/menu/page.tsx:170:5
+Parsing ecmascript source code failed
+  168 | export default function MenuPage() {
+  169 |   return (
+> 170 |     return (
+      |     ^^^^^^
+  171 |     <>
+  172 |       <Navbar />
+  173 |     </>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]
+[00:26:18.282] Server  LOG     ✓ Compiled in 15.5s
+[00:26:19.176] Browser ERROR   ./app/menu/page.tsx:175:7
+Parsing ecmascript source code failed
+  173 |     </>
+  174 |     <Suspense
+> 175 |       fallback={
+      |       ^^^^^^^^
+  176 |         <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+  177 |           <p className="text-muted-foreground">Loading menu...</p>
+  178 |         </div>
+
+Expected ',', got 'ident'
+
+Import traces:
+  Client Component Browser:
+    ./app/menu/page.tsx [Client Component Browser]
+    ./app/menu/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/menu/page.tsx [Client Component SSR]
+    ./app/menu/page.tsx [Server Component]

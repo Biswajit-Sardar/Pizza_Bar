@@ -7,6 +7,8 @@ import { Star, ChefHat, Leaf, Flame, Fish, Grid3X3 } from "lucide-react"
 import { categories, getPizzasByCategory, type Pizza } from "@/lib/pizza-data"
 import { PizzaCard } from "@/components/pizza-card"
 import { Input } from "@/components/ui/input"
+import {Navbar} from "@/components/navbar"
+
 
 const iconMap: Record<string, React.ReactNode> = {
   grid: <Grid3X3 className="h-4 w-4" />,
@@ -165,14 +167,17 @@ function MenuContent() {
 
 export default function MenuPage() {
   return (
-    <Suspense
-      fallback={
-        <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
-          <p className="text-muted-foreground">Loading menu...</p>
-        </div>
-      }
-    >
-      <MenuContent />
-    </Suspense>
+    <>
+      <Navbar />
+      <Suspense
+        fallback={
+          <div className="pt-24 pb-16 px-6 min-h-screen flex items-center justify-center">
+            <p className="text-muted-foreground">Loading menu...</p>
+          </div>
+        }
+      >
+        <MenuContent />
+      </Suspense>
+    </>
   )
 }
