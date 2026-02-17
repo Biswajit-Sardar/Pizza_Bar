@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/Desktop/Pizza_bar/app/page.tsx"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <div className=\"pt-24 text-center\">\r\n      <h1>Welcome to PizzaBar 🍕</h1>\r\n    </div>\r\n  )\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,6WAAC;QAAI,WAAU;kBACb,cAAA,6WAAC;sBAAG;;;;;;;;;;;AAGV"}}]
-}
